@@ -1,0 +1,322 @@
+body{
+    font-family: "Archivo Narrow", sans-serif;
+    font-optical-sizing: auto;
+    background: linear-gradient(to left, #FFF, #EBE7D0);
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item{
+    font-family: "Archivo Black", sans-serif;
+    color: #EBE7D0;    
+}
+
+#my_name{
+    font-family: "Archivo Black", sans-serif;
+    color: #EBE7D0;
+    font-size: small;
+}
+
+#my_avatar{
+    width: 32px;
+    height: 32px;
+}
+
+.hero-description {
+    width: 50%;
+    color: #121110;
+    font-family: "Archivo Black", sans-serif;
+    font-size: large;
+}
+
+.custom-center-horizontal{
+    padding: 5px;
+    padding-bottom: 0px;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+.text_padding_left{
+    padding-left: 5px;
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0px;
+    background-size: cover;
+    background-position: center;
+    height: 500px; /* Adjust the height as needed */
+  }
+
+  .video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    margin: 0px;
+  }
+
+  .video-background video {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #D01110;
+    font-family: "Archivo Black", sans-serif;
+  }
+
+  .custom-nav{
+    margin-bottom: 0px;
+  }
+
+  .custom-button {
+    margin-top: 5px;
+    background-color: #121110;
+    color: #EBE7D0;
+    font-family: "Archivo Black", sans-serif;
+  }
+
+  .custom-button:hover {
+    background-color: #D01110;
+    color: #EBE7D0;
+  }
+
+  .container{
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .custom-div {
+    border: 1px solid #D3A550;
+    /* background-color: #EBE7D0; */
+    /* background: content-box linear-gradient(to bottom left, #D3A550, #ffffff); */
+    border-radius: 10%;
+    /* padding: 10px; */
+    margin-bottom: 10px;
+  }
+
+  .custom-div:hover, .follow-button:hover{
+    transform: translate(0%, -2%) scale(1.1);
+    box-shadow: 0 10px 20px #121110;
+    
+  }
+
+
+.custom-div.a{
+    background: content-box linear-gradient(to top left, #D3A550, #ffffff);
+}
+
+.custom-div.b{
+    background: content-box linear-gradient(to bottom left, #D3A550, #ffffff);
+}
+
+.custom-div.c{
+    background: content-box linear-gradient(to bottom right, #D3A550, #ffffff);
+}
+
+.custom-div.d{
+    background: content-box linear-gradient(to top right, #D3A550, #ffffff);
+}
+
+
+  .my_job_title,
+  .my_company,
+  .my_working_period,
+  .My_Section,
+  .my_education_description {
+    text-align: center;
+    margin: 10px;
+  }
+
+  .my_job_description,
+  .my_techno {
+    text-align: left;
+    margin: 10px;
+  }
+
+  .my_techno_list{
+    font-family: "Archivo Black", sans-serif;
+    color: #121110;
+  }
+
+  #me_at_allo_win, #me_at_espa, #me_at_ispm{
+    width: 25%;
+    height: 25%;
+  }
+
+  #scrollToTopButton {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    background-color: #D01110;
+    color: #EBE7D0;
+    cursor: pointer;
+  }
+  
+  #scrollToTopButton:hover {
+    background-color: #121110;
+  }
+
+  #my_arrow_icon{
+    width: 50px;
+    height: 50px;
+  }
+
+  .carousel-inner{
+    display: flex;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .carousel {
+    border-radius: 10%;
+  }
+
+  #my_it_overall_skills_div{
+    color: #121110;
+  }
+
+.follow-button {
+    width: 250px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 50%;
+    font-size: medium;
+    
+}
+
+  .follow-button.facebook {
+    /* background-color: #3b5998; */
+    color: #EBE7D0;
+    background: linear-gradient(to left, #3b5998 60%, #EBE7D0 );
+  }
+  .follow-button.instagram {
+    background-color: #c13584;
+    color: #EBE7D0;
+    background: linear-gradient(to right, #c13584 60%, #EBE7D0 );
+  }
+  .follow-button.twitter {
+    background-color: #1da1f2;
+    color: #EBE7D0;
+    background: linear-gradient(to bottom, #1da1f2 60%, #EBE7D0 );
+  }
+  .follow-button.linkedin {
+    background-color: #0077b5;
+    color: #EBE7D0;
+    background: linear-gradient(to right, #0077b5 60%, #EBE7D0 );
+  }
+
+  .follow-button.tel-button {
+    background-color: #3377b5;
+    color: #EBE7D0;
+    background: linear-gradient(to left, #3377b5 60%, #EBE7D0 );
+  }
+
+  .follow-button.tiktok {
+    background-color: #000;
+    color: #EBE7D0;
+    background: linear-gradient(to bottom, #000 60%, #EBE7D0 );
+  }
+
+  .follow-button.whatsapp {
+    background-color: #25D366;
+    color: #EBE7D0;
+    background: linear-gradient(to top, #25D366 60%, #EBE7D0 );
+  }
+
+  .email-button {
+    background-color: #007bff;
+    color: #EBE7D0;
+    background: linear-gradient(to top, #007bff 60%, #EBE7D0 );
+  }
+
+  footer {
+    background-color: #121110;
+    padding: 20px;
+    text-align: center;
+    color: #EBE7D0;
+    font-size: 14px;
+  }
+  
+  .My_Section.even{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: linear-gradient(to right, #EBE7D0, #D3A550);
+    
+  }
+
+  .My_Section.odd{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: linear-gradient(to left, #EBE7D0, #D3A550);
+    
+  }
+
+  .left_animation{
+    animation-name: slide_left;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+  }
+  .right_animation{
+    animation-name: slide_right;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes slide_left {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @keyframes slide_right {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
