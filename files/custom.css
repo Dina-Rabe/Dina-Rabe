@@ -286,7 +286,7 @@ body{
     background: linear-gradient(to left, #EBE7D0, #D3A550);
     
   }
-
+/* 
   .left_animation{
     animation-name: slide_left;
     animation-duration: 5s;
@@ -319,4 +319,4 @@ body{
     100% {
       transform: translateX(0);
     }
-  }
+  } */
