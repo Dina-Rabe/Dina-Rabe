@@ -47,7 +47,8 @@ body{
     margin: 0px;
     background-size: cover;
     background-position: center;
-    height: 500px; /* Adjust the height as needed */
+    height: 550px; /* Adjust the height as needed */
+
   }
 
   .video-background {
@@ -92,6 +93,8 @@ body{
 
   .custom-nav{
     margin-bottom: 0px;
+    color: #121110;
+    border: none;
   }
 
   .custom-button {
@@ -107,21 +110,22 @@ body{
   }
 
   .container{
-    margin-top: 50px;
+    width: 100%;
     text-align: center;
+    background: linear-gradient(to bottom, #EBE7D0, #FFF);
   }
 
   .custom-div {
     border: 1px solid #D3A550;
     /* background-color: #EBE7D0; */
     /* background: content-box linear-gradient(to bottom left, #D3A550, #ffffff); */
-    border-radius: 5%;
+    border-radius: 10%;
     /* padding: 10px; */
-    margin-bottom: 10px;
+    margin: 40px;
   }
 
   .custom-div:hover, .follow-button:hover{
-    transform: translate(0%, -2%) scale(1.1);
+    transform: translate(0%, -2%) scale(1);
     box-shadow: 0 10px 20px #121110;
     
   }
@@ -143,6 +147,11 @@ body{
     background: content-box linear-gradient(to top right, #D3A550, #ffffff);
 }
 
+.custom-div.mini {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
 
   .my_job_title,
   .my_company,
@@ -150,7 +159,8 @@ body{
   .My_Section,
   .my_education_description {
     text-align: center;
-    margin: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 
   .my_job_description,
@@ -271,7 +281,7 @@ body{
     font-size: 14px;
   }
   
-  .My_Section.even{
+  /* .My_Section.even{
     width: 100%;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -285,25 +295,29 @@ body{
     margin-bottom: 50px;
     background: linear-gradient(to left, #EBE7D0, #D3A550);
     
-  }
-/* 
-  .left_animation{
-    animation-name: slide_left;
-    animation-duration: 5s;
-    animation-delay: 2s;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
-    animation-fill-mode: forwards;
+  } */
+
+   .left_animation{
+    background: linear-gradient(to right, #D3A550, #FFF);
+    text-align: center;
+    margin-left: 0%;
+    margin-right: 20%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    padding: 10px;
+
   }
   .right_animation{
-    animation-name: slide_right;
-    animation-duration: 5s;
-    animation-delay: 2s;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
-    animation-fill-mode: forwards;
+    background-color: #D3A550;
+    background: linear-gradient(to left, #D3A550, #FFF);
+    text-align: center;
+    margin-right: 0%;
+    margin-left: 20%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    padding: 10px;
   }
-
+/*
   @keyframes slide_left {
     0% {
       transform: translateX(100%);
