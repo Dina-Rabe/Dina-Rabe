@@ -7,11 +7,6 @@ body.smartphone div.custom-div h4{
   padding-right: 20px;
 }
 
-body.smartphone button,
-body.smartphone footer{
-  font-size: 30px;
-}
-
 body.smartphone div.custom-div h3 {
   font-size: 50px;
   font-weight: bold;
@@ -29,7 +24,6 @@ body{
     background: #121110;
     margin: 0;
     padding: 0;
-    background-image: url('files/background_repeat.png');
     background-repeat: repeat;
     background-position: center center;
     position: relative;
