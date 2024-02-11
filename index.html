@@ -3,14 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="Dina Rabenarimanitra" content="width=device-width, initial-scale=1.0">
-  <meta property="og:title" content="Online Resume @ Dina Rabenarimanitra">
-  <meta property="og:description" content="IT Consultant">
-  <meta property="og:image" content="files/dina_new.jpeg">
-  <meta name="twitter:card" content="Online Resume @ Dina Rabenarimanitra">
-  <meta name="twitter:title" content="Dina Rabenarimanitra">
-  <meta name="twitter:description" content="IT Consultant">
-  <meta name="twitter:image" content="files/dina_new.jpeg">
-
   <link rel="icon" type="image/jpeg" href="files/dina_fav_icon.jpeg">
   <!-- Include Bootstrap CSS -->
   <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
@@ -29,6 +21,17 @@
     
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <script>
+    // JavaScript code to detect device type
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+      // Add class to body for smartphones
+      document.body.classList.add('smartphone');
+    } else {
+      // Add class to body for laptops, desktops, and tablets
+      document.body.classList.add('laptop');
+    }
+    </script>
+
     <nav class="navbar navbar-inverse custom-nav" id="start_of_this_clever_story">
         <div class="container-fluid">
           <div class="navbar-header custom-center-horizontal">
