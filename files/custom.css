@@ -2,7 +2,8 @@ body.smartphone div.custom-div p,
 body.smartphone div.custom-div ul,
 body.smartphone div.custom-div li,
 body.smartphone div.custom-div h4,
-body.smartphone button{
+body.smartphone a,
+body.smartphone footer{
   font-size: xx-large;
   padding-left: 20px;
   padding-right: 20px;
